@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "browser-sync start --server dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.24.7",
     "node-sass": "^4.9.3"
   }
 }
