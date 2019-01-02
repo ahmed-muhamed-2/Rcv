@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.24.7",
+    " -sync": "^2.24.7",
     "node-sass": "^4.9.3"
   },
   "devDependencies": {
