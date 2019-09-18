@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2c840e05-9a35-42c1-a308-319b37b34919/deploy-status)](https://app.netlify.com/sites/youthful-jennings-099b74/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c840e05-9a35-42c1-a308-319b37b34919/deploy-status)](https://ahmedmuhammadcv.netlify.com/)
 
 ### Technologies used in project
 
