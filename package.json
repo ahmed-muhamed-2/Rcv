@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node-sass scss/ -o dist/css/",
     "start": "browser-sync start --server dist",
     "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
