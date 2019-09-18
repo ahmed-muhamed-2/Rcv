@@ -1,12 +1,13 @@
 # Responsive Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c840e05-9a35-42c1-a308-319b37b34919/deploy-status)](https://app.netlify.com/sites/youthful-jennings-099b74/deploys)
+
 ### Technologies used in project
 
-* CSS Flexbox
-* CSS Grid
-* SCSS
-* Little of javascript
-
+- CSS Flexbox
+- CSS Grid
+- SCSS
+- Little of javascript
 
 ### Steps to run project
 
