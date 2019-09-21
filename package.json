@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "node-sass scss/ -o dist/css/",
-    "start": "browser-sync start --server dist",
-    "deploy": "gh-pages -d dist",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "browsersync": "browser-sync start --server dist",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "start": "run-p sass browsersync",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "browser-sync": "^2.24.7",
-    "node-sass": "^4.9.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gh-pages": "^2.0.0"
+    "browser-sync": "^2.26.7",
+    "gh-pages": "^2.0.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5"
   }
 }
