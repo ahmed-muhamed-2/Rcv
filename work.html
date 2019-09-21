@@ -1,126 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="/" class="nav-link">
-            Home
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">
+        My
+        <span class="text-secondary">Work</span>
+      </h1>
+      <h2 class="sm-heading">
+        Check out some of my projects...
+      </h2>
+      <div class="projects">
+        <!-- <div class="item">
+          <a href="#!">
+            <img src="img/projects/project1.jpg" alt="Project" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
+          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
+          <a href="https://github.com/ahmed-muhamed-2/rws" class="btn-dark">
+            <i class="fab fa-github"></i> Github
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+        </div> -->
+
+        <!-- Bootstrap layout homepage -->
+        <div class="item">
+          <a href="https://youthful-colden-ce6bf4.netlify.com" target="_blank">
+            <img src="img/projects/project4.png" alt="Project" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
+          <a
+            href="https://youthful-colden-ce6bf4.netlify.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Agency Homepage layout (bootstrap)
           </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+          <a
+            href="https://github.com/ahmed-muhamed-2/looplab"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
 
-  <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
-    </h2>
-    <div class="projects">
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project1.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project2.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project3.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project4.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project5.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-    </div>
-  </main>
+        <!-- Bootstrap layout dashboard-->
+        <div class="item">
+          <a
+            href="https://peaceful-mcclintock-d2c287.netlify.com/index.html"
+            target="_blank"
+          >
+            <img src="img/projects/project5.png" alt="Project" />
+          </a>
+          <a
+            href="https://peaceful-mcclintock-d2c287.netlify.com/index.html"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Admin dashboard layout (bootstrap)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/blogen"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
 
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
+        <!-- Task manger ( vanilla  javascript ) -->
+        <div class="item">
+          <a href="https://ahmed-muhamed-2.github.io/jsDOM/" target="_blank">
+            <img src="img/projects/project7.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/jsDOM/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Task Manager (vanilla javascript)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/jsDOM"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
 
-  <script src="js/main.js"></script>
-</body>
+        <!-- tracalorie ( vanilla  javascropt )-->
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/tracalorie/"
+            target="_blank"
+          >
+            <img src="img/projects/project9.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/tracalorie/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Calories calculator (vanilla javascript)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/tracalorie"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
 
+        <!-- githubfinder ( vanilla  javascript ) -->
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/githubfinder/"
+            target="_blank"
+          >
+            <img src="img/projects/project10.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/githubfinder/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> githubfinder (vanilla javascript)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/githubfinder"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <!-- fetch api ( vanilla  javascript )-->
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/find-city/"
+            target="_blank"
+          >
+            <img src="img/projects/project12.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/find-city/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/find-city"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <!-- item manager with firebase ( angular ) -->
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/itemMangemant/"
+            target="_blank"
+          >
+            <img src="img/projects/project13.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/itemMangemant/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Items manager (built using angular and
+            firebase)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/itemMangemant"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <!-- relaxing app ( vanilla  javascript )-->
+        <div class="item">
+          <a href="https://ahmed-muhamed-2.github.io/clock/" target="_blank">
+            <img src="img/projects/project14.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/clock/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> relaxing app (vanilla javascript)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/clock"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <!-- Bookmark Your Favorite Sites -->
+        <div class="item">
+          <a href="https://thirsty-liskov-e9adfb.netlify.com" target="_blank">
+            <img src="img/projects/project3.png" alt="Project" />
+          </a>
+          <a
+            href="https://thirsty-liskov-e9adfb.netlify.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Bookmark Your Favorite Sites (vanilla
+            javascript)
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/bokkmarker-js"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <!-- <div class="item">
+          <a href="https://zen-minsky-d70640.netlify.com" target="_blank">
+            <img src="img/projects/project2.png" alt="Project" />
+          </a>
+          <a
+            href="https://zen-minsky-d70640.netlify.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/filter"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/Update-Css-Variables-whis-JS/"
+            target="_blank"
+          >
+            <img src="img/projects/project6.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/Update-Css-Variables-whis-JS/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/Update-Css-Variables-whis-JS"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://ahmed-muhamed-2.github.io/booklist/" target="_blank">
+            <img src="img/projects/project8.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/booklist/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/booklist"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://ahmed-muhamed-2.github.io/menu-task/"
+            target="_blank"
+          >
+            <img src="img/projects/project11.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/menu-task/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/menu-task"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://ahmed-muhamed-2.github.io/Weather/" target="_blank">
+            <img src="img/projects/project15.png" alt="Project" />
+          </a>
+          <a
+            href="https://ahmed-muhamed-2.github.io/Weather/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/ahmed-muhamed-2/Weather"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div> -->
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2018
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
