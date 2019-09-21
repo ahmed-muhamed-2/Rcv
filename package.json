@@ -8,7 +8,8 @@
     "browsersync": "browser-sync start --server dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "start": "run-p sass browsersync",
-    "deploy": "gh-pages -d dist"
+    "gh-pages": "gh-pages -d dist",
+    "deploy": "run-s build gh-pages"
   },
   "author": "",
   "license": "ISC",
